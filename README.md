@@ -1,7 +1,11 @@
 # theo-shop
-技术栈： Vue3,VueRouter, Pinia, Axios
+**技术栈： Vue3,VueRouter, Pinia, Axios**
+
 项目简介： 基于Vue3搭建的电商前台系统，涵盖首页、商品分类、详情及基础购物车展示等核心基础模块。
+
 组件化与数据流： 进行基础的页面组件拆分，结合 Axios 获取并渲染首页分类、商品列表等核心展示数据。
+
 路由与状态管理：使用VueRoute 实现基础路由跳转，使用 Pinia 进行简单的跨组件状态读取（购物车数量）。
+
 性能优化体验： 借助 useIntersectionObserver 实现了首页长列表数据与图片的懒加载，初步了解并实践了
 前端首屏渲染优化的基本思路。
